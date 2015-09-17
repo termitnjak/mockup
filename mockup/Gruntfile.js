@@ -73,6 +73,7 @@ module.exports = function(grunt) {
 
   mockup.registerBundle('structure', {}, { url: '++resource++wildcard.foldercontents-structure' });
   mockup.registerBundle('filemanager', {}, { url: '++resource++plone.resourceeditor-filemanager' });
+  mockup.registerBundle('upload', {}, { url: '++resource++upload' });
   mockup.registerBundle('resourceregistry');
   mockup.registerBundle('plone', {}, { path: 'build/', url: '++resource++plone' });
   mockup.registerBundle('widgets', {}, { path: 'build/', url: '++resource++plone.app.widgets' });
