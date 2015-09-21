@@ -20,7 +20,7 @@
                 <button
                     type="button"
                     class="btn btn-primary browse">
-                    Browse
+                    <%- _t("Browse") %>
                 </button>
             </div>
         </div>
